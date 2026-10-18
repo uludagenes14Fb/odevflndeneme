@@ -10,9 +10,9 @@ void main() {
     System.out.println(ort);
     double olmadan süper bir taktikle ortalama aldım*/
 
-    double vize1 = 60;
-    double vize2 = 70;
-    double finalnot = 75;
+    double vize1 = 60.0;
+    double vize2 = 70.0;
+    double finalnot = 75.0;
 
     double ort = (vize1/4) + (vize2/4) + (finalnot/2);
 
