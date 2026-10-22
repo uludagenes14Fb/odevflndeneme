@@ -14,10 +14,27 @@ void main() {
     double vize2 = 70.0;
     double finalnot = 75.0;
 
-    double ort = (vize1/4) + (vize2/4) + (finalnot/2);
+    double ort = (vize1*0.25) + (vize2*0.25) + (finalnot*0.5);
 
     System.out.println(ort);
 
-    //burada ise double kullanarak yaptım yüzdelere girmeden sadeleştirdi.
-    //nasıl istediğinizi bilmediğim için ikisini de yaptım
+    if (ort >= 85) {
+
+        System.out.println("Takdir Aldın.");
+    }
+    else if (ort >= 75) {
+
+        System.out.println("Teşekkür ALdın.");
+    }
+    else if (ort >= 50) {
+
+        System.out.println("Geçtin.");
+    }
+    else {
+
+        System.out.println("Kaldın");
+    }
+
+
+    //umarım olmuştur. Kolay gelsin:)
 }
