@@ -10,6 +10,11 @@ void main() {
     System.out.println(ort);
     double olmadan süper bir taktikle ortalama aldım*/
 
+    String takdir = "Takdir Aldın." ;
+    String tesekkur = "Teşekkür ALdın." ;
+    String gecti = "Geçtin." ;
+    String kaldi = "Kaldın." ;
+
     double vize1 = 60.0;
     double vize2 = 70.0;
     double finalnot = 75.0;
@@ -20,19 +25,19 @@ void main() {
 
     if (ort >= 85) {
 
-        System.out.println("Takdir Aldın.");
+        System.out.println(takdir);
     }
     else if (ort >= 75) {
 
-        System.out.println("Teşekkür ALdın.");
+        System.out.println(tesekkur);
     }
     else if (ort >= 50) {
 
-        System.out.println("Geçtin.");
+        System.out.println(gecti);
     }
     else {
 
-        System.out.println("Kaldın");
+        System.out.println(kaldi);
     }
 
 
